@@ -6,4 +6,4 @@ Additionally you must have a PayLink device.
 
 Related [video](https://www.youtube.com/watch?v=wr9LkyMlN3U&ab_channel=KusumsiriWijayaratna).
 
-![This is an image](https://github.com/kusumsiri/ccTalk/blob/main/The-Paylink-Device.png)
+![This is an image](/assets/images/The-Paylink-Device.png)
