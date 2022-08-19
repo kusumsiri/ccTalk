@@ -4,3 +4,5 @@ The code is written using C programming language.
 You must have the Aesimhei.dll, Aesimhei.h and Aesimhei.lib file to compile the code. Please get those from the company that owns it.
 Additionally you must have a PayLink device.
 Related [video](https://www.youtube.com/watch?v=wr9LkyMlN3U&ab_channel=KusumsiriWijayaratna).
+https://github.com/kusumsiri/ccTalk/blob/main/The-Paylink-Device.png?raw=true
+![This is an image](https://github.com/kusumsiri/ccTalk/blob/main/The-Paylink-Device.png)
