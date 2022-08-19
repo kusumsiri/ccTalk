@@ -6,6 +6,6 @@ Additionally you must have a PayLink device.
 
 Sample code file [main.c](https://github.com/kusumsiri/ccTalk/blob/main/main.c).
 
-Code in Action [video](https://www.youtube.com/watch?v=wr9LkyMlN3U&ab_channel=KusumsiriWijayaratna).
+Code in action [video](https://www.youtube.com/watch?v=wr9LkyMlN3U&ab_channel=KusumsiriWijayaratna).
 
 ![The PayLink device](https://github.com/kusumsiri/ccTalk/blob/main/The-Paylink-Device.png)
