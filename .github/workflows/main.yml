@@ -18,6 +18,7 @@ jobs:
           --layer-name node_modules
           --compatible-runtimes nodejs12.x nodejs14.x nodejs16.x nodejs18.x
           --compatible-architectures x86_64
+          --description "Layer contains node_modules"
           --zip-file fileb://release.zip
       env:
         AWS_DEFAULT_REGION: "us-east-1"
