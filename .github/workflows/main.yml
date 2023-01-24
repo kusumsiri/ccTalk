@@ -1,0 +1,24 @@
+env:
+  NPM_PACKAGES: express mysql
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/setup-node@v2.1.5
+    - run: mkdir nodejs && cd nodejs && npm install $NPM_PACKAGES && cd ..
+    - uses: TheDoctor0/zip-release@0.4.1
+    - uses: ItsKarma/aws-cli@v1.70.0
+      with:
+        args: >
+          lambda publish-layer-version
+          --layer-name node_modules
+          --compatible-runtimes nodejs
+          --zip-file fileb://release.zip
+      env:
+        AWS_DEFAULT_REGION: us-east-1
+        AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
