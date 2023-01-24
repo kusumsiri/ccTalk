@@ -17,6 +17,7 @@ jobs:
           lambda publish-layer-version
           --layer-name node_modules
           --compatible-runtimes nodejs
+          --compatible-architectures x86_64
           --zip-file fileb://release.zip
       env:
         AWS_DEFAULT_REGION: "us-east-1"
