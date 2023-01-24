@@ -1,5 +1,5 @@
 env:
-  NPM_PACKAGES: express mysql
+  NPM_PACKAGES: express aws-sdk
 on:
   push:
     branches: [ main ]
